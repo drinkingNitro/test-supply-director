@@ -15,3 +15,7 @@ class DateTimeServices:
     def timestamp_to_timefield(timestamp):
         dt = datetime.fromtimestamp(timestamp, UTC)
         return dt.time()
+
+
+class EventServices:
+    ...
